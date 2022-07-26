@@ -1,0 +1,353 @@
+/* ---------------------------- overwrite keycloak class ---------------------------- */
+.alert-error {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0;
+  color: #C9190B;
+
+  border: 1px solid #eaeaea;
+  border-left-color: #C9190B;
+  border-left-style: solid;
+  border-left-width: 3px;
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+}
+.pf-c-alert__icon {
+  position: absolute;
+  left: 24px;
+  height: 24px;
+  width: 24px;
+  background: url(../images/icon/ico-16-info.svg) 0 2px no-repeat;
+  color: #C9190B;
+}
+.pf-c-alert__title {
+  padding-left: 70px;
+}
+
+
+/* ----------------------------------------------------------------- */
+/* ----------------------------- 로그인 ----------------------------- */
+/* ----------------------------------------------------------------- */
+
+/* ---------------------------- 로그인페이지 ---------------------------- */
+.lytLogin {width: 100%;}
+.lytLogin .hidden {overflow: hidden; position: absolute; left: 0; top: 0; width: 1px; height: 1px; opacity: 0.01;}
+.lytLogin .loginArea {position:relative; width: 100%; max-width: 1480px; margin: 0 auto; padding-right: 632px; background: url("../images/common/right-img.svg") right top no-repeat;}
+.lytLogin .loginGroup {padding: 60px 11.32% 40px;}
+
+.lytLogin .logoField {margin-bottom: 110px;}
+.lytLogin .logoField .logo {width: 180px; height: 42px;}
+.lytLogin .logoField .logo a {display: block; width: 100%; height: 100%; background: url("../images/icon/kird-logo.png") no-repeat; font-size: 0; background-size:100% 100%;}
+
+.lytLogin .contField {margin-bottom: 223px;}
+.lytLogin .contField .titBox {margin-bottom: 70px;}
+.lytLogin .contField .titBox .tit {height: 59px; color: #000; font-size: 40px; font-weight: bold; line-height: normal; letter-spacing: normal;}
+
+.lytLogin .contField .inputBox {margin-bottom: 40px;}
+.lytLogin .contField .inputBox .userId {margin-bottom: 30px;}
+.lytLogin .contField .inputBox .userId dt {height: 24px; margin-bottom: 15px; color: #7f7f7f; font-size: 14px; font-weight: 500; line-height: 1.71; letter-spacing: normal;}
+.lytLogin .contField .inputBox .userId dd {position: relative;}
+.lytLogin .contField .inputBox .userId .iptId{width: 100%; height: 78px; padding: 26px 55px 28px 64px; border: 1px solid #e5e5e5; background: url("../images/icon/ico-24-my-abled-off.svg") 25px 26px no-repeat; color: #4a4a4a; font-size: 14px; line-height: 1.71; letter-spacing: normal;}
+.lytLogin .contField .inputBox .userId .btnDel {position: absolute; right: 25px; top: 27px; width: 24px; height: 24px; background: url("../images/icon/ico-16-delete.svg") no-repeat;}
+.lytLogin .contField .inputBox .userId .iptId:focus {border-color: #3c89f9; background-image: url("../images/icon/ico-24-my-abled-on.svg"); outline: 0;}
+
+.lytLogin .contField .inputBox .userPw {margin-bottom: 30px;}
+.lytLogin .contField .inputBox .userPw dt {height: 24px; margin-bottom: 15px; color: #7f7f7f; font-size: 14px; font-weight: 500; line-height: 1.71; letter-spacing: normal;}
+.lytLogin .contField .inputBox .userPw dd {position: relative;}
+.lytLogin .contField .inputBox .userPw .iptPw {position: relative; width: 100%; height: 78px; padding: 26px 55px 28px 64px; border: 1px solid #e5e5e5; background: url("../images/icon/ico-24-lock-off.svg") 25px 26px no-repeat; color: #000; font-size: 14px; line-height: 1.71; letter-spacing: normal;}
+.lytLogin .contField .inputBox .userPw .iptPw:focus {border-color: #3c89f9; background-image: url("../images/icon/ico-24-lock-on.svg"); outline: 0;}
+.lytLogin .contField .inputBox .userPw.failPc .iptPw {background-color: rgba(255, 100, 124, 0.1); border-color: #ff647c; outline: 0;}
+.lytLogin .contField .inputBox .userPw .btnView {position: absolute; right: 25px; top: 27px; width: 24px; height: 24px; background: url("../images/icon/ico-16-view-off.svg") no-repeat;}
+.lytLogin .contField .inputBox .userPw.failPc .btnView {background-image: url("../images/icon/ico-16-view-on.svg");}
+.lytLogin .contField .inputBox .userPw .failMsg {height: 24px; margin-top: 10px; padding-left: 26px; background: url("../images/icon/ico-16-info.svg") 0 2px no-repeat; color: #ff647c; font-size: 14px; line-height: 1.71; letter-spacing: normal;}
+.lytLogin .contField .inputBox .userPw.failPc .failMsg {display: block;}
+
+.lytLogin .contField .inputBox .userOpt {}
+.lytLogin .contField .inputBox .userOpt:after {content: ''; display: block; clear: both;}
+.lytLogin .contField .inputBox .userOpt .optSave {float: left;}
+.lytLogin .contField .inputBox .userOpt .optSearch {float: right;}
+.lytLogin .contField .inputBox .userOpt .optSearch .linkSearch {height: 24px; color: #4a4a4a; font-size: 14px; font-weight: 500; line-height: 1.71; letter-spacing: normal;}
+
+.lytLogin .contField .btnBox {margin-bottom: 30px;}
+.lytLogin .contField .btnBox .btn.login {width: 100%; height: 78px; padding: 27px 0; font-size: 16px; font-weight: 500; line-height: normal; letter-spacing: normal; text-align: center;}
+
+.lytLogin .contField .linkBox {text-align: center;}
+.lytLogin .contField .linkBox .linkTxt {color: #7f7f7f; font-size: 14px; line-height: normal; letter-spacing: normal;}
+.lytLogin .contField .linkBox .linkTxt .linkJoin {color: #3c89f9; font-weight: 500; letter-spacing: normal; text-decoration: underline;}
+
+.lytLogin .cmtField {}
+.lytLogin .cmtField .cmtTxt {display: block; height: 20px; padding-left: 24px; background: url("../images/icon/ico-16-info-line.svg") no-repeat 0 center; color: #b2b2b2; font-size: 14px; line-height: normal; letter-spacing: normal;}
+
+.loginInfo {position:absolute; right:100px; top:60px; width:calc(632px - 200px); padding:20px 50px; background:rgba(0,0,0,.05); border-radius:5px;}
+  .loginInfo .txt_s14cBlack {font-size:0.875rem;}
+  .loginInfo .txt_s14cBlack + .txt_s14cBlack {padding-top:12px;}
+
+  .li_memo {padding-top:20px; font-size:0.875rem;}
+    .li_memo b {padding-right:5px; color:#333; font-weight:600;}
+    .li_memo .cBlue {color:#3c89f9; font-weight:600;}
+    
+@media screen and (min-width: 100px) and (max-width: 1023px) {
+  .lytLogin .loginArea {padding-right: 0; background: none;}
+  .lytLogin .loginGroup {padding: 30px 20px 10px;}
+
+  .lytLogin .logoField {display: none;}
+
+  /* .lytLogin .contField {margin-bottom: 171px;} */
+  .lytLogin .contField .titBox {display: none;}
+  .lytLogin .contField .inputBox {margin-bottom: 20px;}
+  .lytLogin .contField .inputBox .userId {margin-bottom: 20px;}
+  .lytLogin .contField .inputBox .userId dt {margin-bottom: 10px;}
+  .lytLogin .contField .inputBox .userId .iptId {height: 50px; padding: 13px 35px 13px 39px; background-position: 15px 17px; background-size: 16px;}
+  .lytLogin .contField .inputBox .userId .btnDel {right: 15px; top: 17px; width: 16px; height: 16px; background-size: 16px;}
+  .lytLogin .contField .inputBox .userPw {margin-bottom: 10px;}
+  .lytLogin .contField .inputBox .userPw dt {margin-bottom: 10px;}
+  .lytLogin .contField .inputBox .userPw .iptPw {height: 50px; padding: 13px 0 13px 39px; background-position: 15px 17px; background-size: 16px;}
+  .lytLogin .contField .inputBox .userPw .btnView {right: 15px; top: 17px; width: 16px; height: 16px; background-size: 16px;}
+
+  .lytLogin .contField .inputBox .userOpt .optSearch .linkSearch {height: 20px; font-size: 12px; line-height: 1.67;}
+
+  .lytLogin .contField .btnBox {margin-bottom: 10px;}
+  .lytLogin .contField .btnBox .btn.login {height: 50px; padding: 15px 0; font-size: 14px;}
+
+  .lytLogin .contField .linkBox .linkTxt {height: 18px; font-size: 12px;}
+
+  .lytLogin .cmtField .cmtTxt {height: 18px; padding-left: 19px; background-size: 16px; font-size: 12px;}
+}
+
+/* -------------------------- 220308 로그인 상단우측 추가 --------------------------- */
+.lytLogin .loginArea {position:relative;}
+
+.loginInfo {position:absolute; right:92px; top:60px; width:calc(632px - 184px); padding:20px 50px; background:rgba(0,0,0,.05); border-radius:5px;}
+  .loginInfo .txt_s14cBlack {font-size:0.875rem; word-break:keep-all;}
+  .loginInfo .txt_s14cBlack + .txt_s14cBlack {padding-top:12px;}
+  .loginInfo .cBlue {color:#3c89f9; font-size:15px; text-decoration:underline;}
+
+  .li_memo {padding-top:20px; font-size:0.875rem;}
+    .li_memo b {padding-right:5px; color:#333; font-weight:600;}
+    .li_memo .cBlue {color:#3c89f9; font-weight:600;}      
+    .li_memo a.cBlue {padding-left:5px; font-weight:600; text-decoration:none;}
+
+@media screen and (min-width: 100px) and (max-width: 1023px) {  
+  .lytLogin .contField {margin-bottom: 30px;}
+  .loginInfo {position:relative; top:auto; right:auto; width:100%; margin-top:25px; padding:20px; border-radius:0;}
+    .loginInfo .cBlue br {display:none;}
+}
+
+/* -------------------------- 서브 비주얼 타이틀 --------------------------- */
+.lytSubVisual {width: 100%; margin-bottom: 80px;border-bottom: 1px solid #e5e5e5;}
+.lytSubVisual .subVisualArea {width: 100%; max-width: 1385px; margin: 0 auto;}
+.lytSubVisual .subvisual {width: 100%; height: 237px; padding-top: 96px; position: relative;}
+.lytSubVisual .subvisual .mBtnback {display: none; font-size: 0;}
+.lytSubVisual .subvisual .mBtnsearch {display: none; font-size: 0;}
+.lytSubVisual .subvisual .tit {font-size:32px; font-weight: 700; color: #000; letter-spacing: -0.67px;}
+.lytSubVisual .subvisual .tit h2 {font-size:32px; font-weight: 700; color: #000; letter-spacing: -0.67px;}
+
+@media screen and (min-width: 100px) and (max-width: 1384px) {
+  .lytSubVisual .subVisualArea {padding: 0 20px;}
+}
+@media screen and (min-width: 100px) and (max-width: 1023px) {
+  .lytSubVisual {margin-bottom:0;border-bottom:none; position: relative;}
+  .lytSubVisual .subVisualArea {padding: 0; height: 0;}
+  /*.lytSubVisual .subvisual {width: 100%; height: 60px; padding-top: 0;border-bottom: 1px solid #e5e5e5; background: #fff; position: absolute; top: -60px; left: 0;}*/
+  .lytSubVisual .subvisual {width: 100%; height: 60px; padding-top: 0;border-bottom: 1px solid #e5e5e5; background: #fff; position: fixed; top: 0; left: 0; z-index:1001;}
+  .lytSubVisual .subvisual::after {display: block; content: ""; clear: both;}
+  .lytSubVisual .subvisual .mBtnback {display: block; width: 60px; height: 60px; background: url("../images/icon/ico-24-arrow-left-black.svg") center no-repeat; float: left;}
+  .lytSubVisual .subvisual .mBtnsearch {display: block; width: 60px; height: 60px; background: url("../images/icon/ico-24-search.svg") center no-repeat; float: left;}
+  .lytSubVisual .subvisual .tit {width: calc(100% - 120px); font-size:18px; line-height: 60px; text-align: center; float: left;}
+  .lytSubVisual .subvisual .tit h2 {font-size:18px; line-height: 60px; text-align: center; float: left;}
+}
+
+/* 링크 탭 */
+.lytTabLink {width: 100%;}
+.lytTabLink .tabLinkArea {width: 100%; max-width: 1385px; margin: 0 auto; position: relative;}
+.lytTabLink .tabLinkArea .submenuTab {position: absolute; top: -137px; left: 0;}
+.lytTabLink .tabLinkArea .submenuTab::after {display: block; content: ""; clear: both;}
+.lytTabLink .tabLinkArea .submenuTab .tabItem {width: auto; float: left;}
+.lytTabLink .tabLinkArea .submenuTab .tabItem a {display: block; padding: 0 40px; line-height: 55px; font-size: 20px; color: #000;}
+.lytTabLink .tabLinkArea .submenuTab .tabItem.on {border-bottom: 2px solid #3c89f9;}
+.lytTabLink .tabLinkArea .submenuTab .tabItem.on a {font-weight: 700; color: #3c89f9;}
+
+@media screen and (min-width: 100px) and (max-width: 1384px) {
+  .lytTabLink .tabLinkArea {padding: 0 20px;}
+}
+@media screen and (min-width: 100px) and (max-width: 1023px) {
+  .lytTabLink {position: relative; margin-bottom: 35px;}
+  .lytTabLink .tabLinkArea {}
+  .lytTabLink .tabLinkArea .submenuTab {position:static; padding-top:20px;}
+  .lytTabLink .tabLinkArea .submenuTab .tabItem {height:40px; margin:0 6px; float: left;}
+  .lytTabLink .tabLinkArea .submenuTab .tabItem:first-child {margin-left:0;}
+  .lytTabLink .tabLinkArea .submenuTab .tabItem:last-child {margin-right:0;}
+  .lytTabLink .tabLinkArea .submenuTab .tabItem a {padding:10px 0 6px; font-size: 14px; font-weight: 500; line-height: normal; letter-spacing: normal;}
+  .lytTabLink .tabLinkArea .submenuTab .tabItem.on {border-bottom: 4px solid #3c89f9;}
+  .lytTabLink .tabLinkArea .submenuTab .tabItem.on a {font-weight: 700; color: #3c89f9;}
+
+  .lytTabLink.type02 {display: none;}
+}
+
+/* -------------------------- 서브 비주얼 타이틀 TYPE2 --------------------------- */
+.lytSubVisual.type02 {width: 100%; margin-bottom: 80px;border-bottom: 1px solid #e5e5e5; display: none;}
+.lytSubVisual.type02 .subVisualArea {width: 100%; max-width: 1385px; margin: 0 auto;}
+.lytSubVisual.type02 .subvisual {width: 100%; height: 237px; padding-top: 96px; position: relative;}
+.lytSubVisual.type02 .subvisual .mBtnback {display: none; font-size: 0;}
+.lytSubVisual.type02 .subvisual .mBtnsearch {display: none; font-size: 0;}
+.lytSubVisual.type02 .subvisual .tit {font-size:32px; font-weight: 700; color: #000; letter-spacing: -0.67px;}
+.lytSubVisual.type02 .subvisual .tit h2 {font-size:32px; font-weight: 700; color: #000; letter-spacing: -0.67px;}
+
+@media screen and (min-width: 100px) and (max-width: 1384px) {
+  .lytSubVisual .subVisualArea {padding: 0 20px;}
+}
+@media screen and (min-width: 100px) and (max-width: 1023px) {
+  .lytSubVisual.type02 {margin-bottom:0;border-bottom:none; display: block; position: relative;}
+  .lytSubVisual.type02 .subVisualArea {padding: 0; height: 0;}
+  .lytSubVisual.type02 .subvisual {width: 100%; height: 60px; padding-top: 0;border-bottom: 1px solid #e5e5e5; background: #fff; position: fixed; top: 0; left: 0;}
+  .lytSubVisual.type02 .subvisual::after {display: block; content: ""; clear: both;}
+  .lytSubVisual.type02 .subvisual .mBtnback {display: block; width: 60px; height: 60px; background: url("../images/icon/ico-24-arrow-left-black.svg") center no-repeat; float: left;}
+  .lytSubVisual.type02 .subvisual .mBtnsearch {display: block; width: 60px; height: 60px; background: url("../images/icon/ico-24-search.svg") center no-repeat; float: left;}
+  .lytSubVisual.type02 .subvisual .tit {width: calc(100% - 120px); font-size:18px; line-height: 60px; text-align: center; float: left;}
+  .lytSubVisual.type02 .subvisual .tit h2 {font-size:18px; line-height: 60px; text-align: center;}
+}
+
+/* -------------------------- 서브 비주얼 타이틀 TYPE3 --------------------------- */
+.lytSubVisual.type03 {width: 100%; margin-bottom: 80px;border-bottom: 1px solid #e5e5e5; display: none;}
+.lytSubVisual.type03 .subVisualArea {width: 100%; max-width: 1385px; margin: 0 auto;}
+.lytSubVisual.type03 .subvisual {width: 100%; height: 237px; padding-top: 96px; position: relative;}
+.lytSubVisual.type03 .subvisual .mBtnback {display: none; font-size: 0;}
+.lytSubVisual.type03 .subvisual .mBtnsearch {display: none; font-size: 0;}
+.lytSubVisual.type03 .subvisual .tit {font-size:32px; font-weight: 700; color: #000; letter-spacing: -0.67px;}
+.lytSubVisual.type03 .subvisual .tit h2 {font-size:32px; font-weight: 700; color: #000; letter-spacing: -0.67px;}
+
+@media screen and (min-width: 100px) and (max-width: 1384px) {
+  .lytSubVisual .subVisualArea {padding: 0 20px;}
+}
+@media screen and (min-width: 100px) and (max-width: 1023px) {
+  .lytSubVisual.type03 {margin-bottom:0;border-bottom:none; display: block; position: relative;}
+  .lytSubVisual.type03 .subVisualArea {padding: 0; height: 60px;}
+  .lytSubVisual.type03 .subvisual {width: 100%; height: 60px; padding-top: 0;border-bottom: 1px solid #e5e5e5; background: #fff; position: fixed;}
+  .lytSubVisual.type03 .subvisual::after {display: block; content: ""; clear: both;}
+  .lytSubVisual.type03 .subvisual .mBtnback {display: block; width: 60px; height: 60px; background: url("../images/icon/ico-24-arrow-left-black.svg") center no-repeat; float: left;}
+  .lytSubVisual.type03 .subvisual .mBtnsearch {display: block; width: 60px; height: 60px; background: url("../images/icon/ico-24-search.svg") center no-repeat; float: left;}
+  .lytSubVisual.type03 .subvisual .tit {width: calc(100% - 120px); font-size:18px; line-height: 60px; text-align: center; float: left;}
+  .lytSubVisual.type03 .subvisual .tit h2 {font-size:18px; line-height: 60px; text-align: center;}
+}
+
+/* -------------------------- 서브 비주얼 타이틀 TYPE4 --------------------------- */
+.lytSubVisual.type04 {width: 100%; margin-bottom: 80px;border-bottom: 1px solid #e5e5e5; display: none;}
+.lytSubVisual.type04 .subVisualArea {width: 100%; max-width: 1385px; margin: 0 auto;}
+.lytSubVisual.type04 .subvisual {width: 100%; height: 237px; padding-top: 96px; position: relative;}
+.lytSubVisual.type04 .subvisual .mBtnback {display: none; font-size: 0;}
+.lytSubVisual.type04 .subvisual .mBtnsearch {display: none; font-size: 0;}
+.lytSubVisual.type04 .subvisual .tit {font-size:32px; font-weight: 700; color: #000; letter-spacing: -0.67px;}
+.lytSubVisual.type04 .subvisual .tit h2 {font-size:32px; font-weight: 700; color: #000; letter-spacing: -0.67px;}
+
+@media screen and (min-width: 100px) and (max-width: 1384px) {
+  .lytSubVisual .subVisualArea {padding: 0 20px;}
+}
+@media screen and (min-width: 100px) and (max-width: 1023px) {
+  .lytSubVisual.type04 {margin-bottom:0;border-bottom:none; display: block; position: relative;}
+  .lytSubVisual.type04 .subVisualArea {padding: 0; height: 60px; }
+  .lytSubVisual.type04 .subvisual {width: 100%; height: 60px; padding-top: 0;border-bottom: none; background: #fff; position: fixed;background: #3c89f9;}
+  .lytSubVisual.type04 .subvisual::after {display: block; content: ""; clear: both;}
+  .lytSubVisual.type04 .subvisual .mBtnback {display: block; width: 60px; height: 60px; background: url("../images/icon/ico-24-arrow-left-white.svg") center no-repeat; float: left;}
+  .lytSubVisual.type04 .subvisual .mBtnsearch {display: block; width: 60px; height: 60px; background: url("../images/icon/ico-24-search-white.svg") center no-repeat; float: left;}
+  .lytSubVisual.type04 .subvisual .tit {width: calc(100% - 120px); font-size:18px; line-height: 60px; color: #fff; text-align: center; float: left;}
+  .lytSubVisual.type04 .subvisual .tit h2 {font-size:18px; line-height: 60px; color: #fff; text-align: center;}
+}
+
+/* -------------------------- 서브 비주얼 타이틀 TYPE5 --------------------------- */
+.lytSubVisual.type05 {width: 100%; margin-bottom: 80px;border-bottom: 1px solid #e5e5e5; display: none;}
+.lytSubVisual.type05 .subVisualArea {width: 100%; max-width: 1385px; margin: 0 auto;}
+.lytSubVisual.type05 .subvisual {width: 100%; height: 237px; padding-top: 96px; position: relative;}
+.lytSubVisual.type05 .subvisual .mBtnback {display: none; font-size: 0;}
+.lytSubVisual.type05 .subvisual .mBtnsearch {display: none; font-size: 0;}
+.lytSubVisual.type05 .subvisual .tit {font-size:32px; font-weight: 700; color: #000; letter-spacing: -0.67px;}
+.lytSubVisual.type05 .subvisual .tit h2 {font-size:32px; font-weight: 700; color: #000; letter-spacing: -0.67px;}
+
+@media screen and (min-width: 100px) and (max-width: 1384px) {
+  .lytSubVisual .subVisualArea {padding: 0 20px;}
+}
+@media screen and (min-width: 100px) and (max-width: 1023px) {
+  .lytSubVisual.type05 {margin-bottom:0;border-bottom:none; display: block; position: relative;}
+  .lytSubVisual.type05 .subVisualArea {padding: 0; height: 0;}
+  .lytSubVisual.type05 .subvisual {width: 100%; height: 60px; padding-top: 0;border-bottom: none;  position: fixed; top: 0; left: 0; background: #3c89f9;}
+  .lytSubVisual.type05 .subvisual::after {display: block; content: ""; clear: both;}
+  .lytSubVisual.type05 .subvisual .mBtnback {display: block; width: 60px; height: 60px; background: url("../images/icon/ico-24-arrow-left-white.svg") center no-repeat; float: left;}
+  .lytSubVisual.type05 .subvisual .mBtnsearch {display: block; width: 60px; height: 60px; background: url("../images/icon/ico-24-search-white.svg") center no-repeat; float: left;}
+  .lytSubVisual.type05 .subvisual .tit {width: calc(100% - 120px); font-size:18px; line-height: 60px; color: #fff; text-align: center; float: left;}
+  .lytSubVisual.type05 .subvisual .tit h2 {font-size:18px; line-height: 60px; color: #fff; text-align: center;}
+}
+
+/* -------------------------- 서브 비주얼 타이틀 TYPE6 --------------------------- */
+.lytSubVisual.type06 {width: 100%; margin-bottom: 80px; border-bottom: 1px solid #e5e5e5;}
+.lytSubVisual.type06 .subVisualArea {width: 100%; max-width: 1385px; margin: 0 auto;}
+.lytSubVisual.type06 .subvisual {width: 100%; height: 237px; padding-top: 96px; position: relative;}
+.lytSubVisual.type06 .subvisual .mBtnback {display: none; font-size: 0;}
+.lytSubVisual.type06 .subvisual .mBtnsearch {display: none; font-size: 0;}
+.lytSubVisual.type06 .subvisual .tit {margin-bottom: 10px; font-size: 32px; font-weight: 700; color: #000; letter-spacing: -0.67px;}
+.lytSubVisual.type06 .subvisual .tit h2 {font-size: 32px; font-weight: 700; color: #000; letter-spacing: -0.67px;}
+.lytSubVisual.type06 .subvisual .subTit {color: #000000; font-size: 18px; line-height: 1.78; letter-spacing: -0.38px;}
+
+@media screen and (min-width: 100px) and (max-width: 1384px) {
+  .lytSubVisual.type06 .subVisualArea {padding: 0 20px;}
+}
+@media screen and (min-width: 100px) and (max-width: 1023px) {
+  .lytSubVisual.type06 {margin-bottom:0;border-bottom:none; position: relative;}
+  .lytSubVisual.type06 .subVisualArea {padding: 0; height: 0;}
+  .lytSubVisual.type06 .subvisual {width: 100%; height: 60px; padding-top: 0;border-bottom: 1px solid #e5e5e5; background: #fff; position: fixed; top: 0; left: 0;}
+  .lytSubVisual.type06 .subvisual::after {display: block; content: ""; clear: both;}
+  .lytSubVisual.type06 .subvisual .mBtnback {display: block; width: 60px; height: 60px; background: url("../images/icon/ico-24-arrow-left-black.svg") center no-repeat; float: left;}
+  .lytSubVisual.type06 .subvisual .mBtnsearch {display: block; width: 60px; height: 60px; background: url("../images/icon/ico-24-search.svg") center no-repeat; float: left;}
+  .lytSubVisual.type06 .subvisual .tit {width: calc(100% - 120px); margin-bottom: 0; font-size:18px; line-height: 60px; text-align: center; float: left;}
+  .lytSubVisual.type06 .subvisual .tit h2 {font-size:18px; line-height: 60px; text-align: center;}
+  .lytSubVisual.type06 .subvisual .subTit {display: none;}
+}
+
+
+/* 체크박스 height-24 font-14 icon-16 */
+.formLoginChk01 {display: inline-block;}
+.formLoginChk01 + .loginLblChk01 {display: inline-block; position: relative; height: 24px; padding-left: 24px; color: #4a4a4a; font-size: 14px; font-weight: 500; line-height: 1.71; letter-spacing: normal;}
+.formLoginChk01 + .loginLblChk01:after {content: ''; position: absolute; left: 0; top: 4px; width: 16px; height: 16px; background: url("../images/icon/input-checkbox-default.svg") center / 16px no-repeat;}
+.formLoginChk01:checked + .loginLblChk01:after {background-image: url("../images/icon/input-checkbox-abled.svg");}
+.formLoginChk01:focus + .loginLblChk01 {box-shadow: 0px 0px 0px 2px rgba(0,0,0,1); border-radius: 5px;}
+
+@media screen and (min-width: 100px) and (max-width: 1023px) {
+  .formLoginChk01 + .loginLblChk01 {height: 20px; padding-left: 17px; font-size: 12px; line-height: 1.67;}
+  .formLoginChk01 + .loginLblChk01:after {top: 3px; width: 14px; height: 14px; background-size: 14px;}
+  .formLoginChk01:checked + .loginLblChk01:after {background-size: 14px;}
+}
+
+
+
+/* ----------------------------------- 버튼 ----------------------------------- */
+/* 버튼 - 공통 */
+.btn {}
+.btn.blue {color: #ffffff; background: #3c89f9;}
+.btn.grey {color: #7f7f7f; background: #e5e5e5;}
+.btn.dark {color: #ffffff; background: #7f7f7f;}
+.btn.line {color: #3c89f9; background: #ffffff; border: 1px solid #3c89f9;}
+.btn.black {color: #ffffff; background: #000000;}
+.btn.lg {height:64px; margin-left:10px; padding:0 87.5px; font-size: 18px; font-weight: 700; line-height: 1.78; letter-spacing: -0.38px; text-align: center;}
+.btn.lg:first-child {margin-left:0;}
+.btn.alert {width:130px; height:40px; margin-right:10px; font-size: 15px; line-height: 1.33;}
+.btn.alert:last-child {margin-right:0;}
+
+@media screen and (min-width: 100px) and (max-width: 1279px) {}
+@media screen and (min-width: 100px) and (max-width: 1023px) {
+  .btn.lg {width:100%; height:50px; padding:0; font-size: 16px; font-weight: 500; line-height: normal; letter-spacing: normal;}
+  .btn.alert {width:auto; height: 20px; font-size: 14px; font-weight: 500;}
+  .btn.alert.blue {background:none; color:#3c89f9;}
+  .btn.alert.grey {background:none; color:#7f7f7f;}
+
+  .mTwo > .btn {width:calc(50% - 5px); padding:0;}
+  .mThr > .btn {width:calc(33.333% - 6.666px); padding:0;}
+}
+
+/* 버튼 - 로그인 */
+.btn.login {width: 255px; height: 50px; margin-left: 10px; font-size: 16px; font-weight: 500; line-height: normal; letter-spacing: normal;}
+.btn.login:first-child {margin-left: 0;}
+@media screen and (min-width: 100px) and (max-width: 1023px) {
+  .btn.login {width: 100%; margin-left: 0; font-size: 14px;}
+  .mTwo .btn.login {width: calc(50% - 2.5px); margin-left: 5px;}
+  .mTwo .btn.login:first-child {margin-left: 0;}
+}

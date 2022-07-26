@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <g fill="none" fill-rule="evenodd">
+        <g fill="#B2B2B2">
+            <g>
+                <g>
+                    <path d="M3.5 24.5h20.617v-2.056H3.5V24.5zm7.216-7.195V14.54l5.879-5.429 2.052 2.258-5.244 5.936h-2.687zm9.029-11.028l1.814 1.804-1.413 1.496-1.89-1.884 1.489-1.416zm4.755 2.1L19.632 3.5 8.654 13.672v5.688h5.633L24.5 8.377z" transform="translate(-1065 -597) translate(860 453) translate(205 144)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

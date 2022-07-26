@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <filter id="47ap1nokla" width="204.5%" height="173.7%" x="-52.3%" y="-36.9%" filterUnits="objectBoundingBox">
+            <feOffset dx="20" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="20"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill="#000">
+            <g filter="url(#47ap1nokla)" transform="translate(-1605 -737) translate(1573 705)">
+                <g>
+                    <g>
+                        <path d="M12 13.8c3.406 0 6.262 1.993 7.006 5.4H4.994c.744-3.407 3.6-5.4 7.006-5.4M8.4 8.4c0-1.985 1.615-3.6 3.6-3.6s3.6 1.615 3.6 3.6S13.985 12 12 12s-3.6-1.615-3.6-3.6m6.982 4.206c1.23-.99 2.018-2.505 2.018-4.206C17.4 5.417 14.983 3 12 3 9.017 3 6.6 5.417 6.6 8.4c0 1.701.788 3.217 2.018 4.206C5.325 13.843 3 16.9 3 21h18c0-4.1-2.325-7.157-5.618-8.394" transform="translate(0 16) translate(32 16)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

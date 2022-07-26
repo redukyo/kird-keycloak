@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108">
+    <defs>
+        <filter id="eiv7fmukaa">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.698039 0 0 0 0 0.698039 0 0 0 0 0.698039 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g filter="url(#eiv7fmukaa)" transform="translate(-575 -712) translate(575 712)">
+                    <circle cx="54" cy="54" r="44" stroke="#27B5AC" stroke-width="20"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,120 @@
+2022-07-26 13:35:40,586 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final
+2022-07-26 13:35:41,004 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
+2022-07-26 13:35:41,011 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2022-07-26 13:35:41,121 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 13.0.1 (WildFly Core 15.0.1.Final) starting
+2022-07-26 13:35:41,122 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	file.encoding = UTF-8
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.headless = true
+	java.class.path = /Users/devms/Desktop/kird/kird-keycloak-13.0.1/jboss-modules.jar
+	java.class.version = 61.0
+	java.home = /Users/devms/Library/Java/JavaVirtualMachines/corretto-17.0.4/Contents/Home
+	java.io.tmpdir = /var/folders/g_/034ztc313236kvnv0wpzs4cc0000gn/T/
+	java.library.path = /Users/devms/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.4+8-LTS
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Amazon.com Inc.
+	java.vendor.url = https://aws.amazon.com/corretto/
+	java.vendor.url.bug = https://github.com/corretto/corretto-17/issues/
+	java.vendor.version = Corretto-17.0.4.8.1
+	java.version = 17.0.4
+	java.version.date = 2022-07-19
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Amazon.com Inc.
+	java.vm.version = 17.0.4+8-LTS
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /Users/devms/Desktop/kird/kird-keycloak-13.0.1
+	jboss.host.name = devmsui-macbookpro
+	jboss.modules.dir = /Users/devms/Desktop/kird/kird-keycloak-13.0.1/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = devmsui-macbookpro
+	jboss.qualified.host.name = devmsui-macbookpro.local
+	jboss.server.base.dir = /Users/devms/Desktop/kird/kird-keycloak-13.0.1/standalone
+	jboss.server.config.dir = /Users/devms/Desktop/kird/kird-keycloak-13.0.1/standalone/configuration
+	jboss.server.data.dir = /Users/devms/Desktop/kird/kird-keycloak-13.0.1/standalone/data
+	jboss.server.deploy.dir = /Users/devms/Desktop/kird/kird-keycloak-13.0.1/standalone/data/content
+	jboss.server.log.dir = /Users/devms/Desktop/kird/kird-keycloak-13.0.1/standalone/log
+	jboss.server.name = devmsui-macbookpro
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/devms/Desktop/kird/kird-keycloak-13.0.1/standalone/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/Users/devms/Desktop/kird/kird-keycloak-13.0.1/standalone/configuration/logging.properties
+	module.path = /Users/devms/Desktop/kird/kird-keycloak-13.0.1/modules
+	native.encoding = UTF-8
+	org.jboss.boot.log.file = /Users/devms/Desktop/kird/kird-keycloak-13.0.1/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 12.3.1
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.library.path = /Users/devms/Library/Java/JavaVirtualMachines/corretto-17.0.4/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/devms/Desktop/kird/kird-keycloak-13.0.1/jboss-modules.jar -mp /Users/devms/Desktop/kird/kird-keycloak-13.0.1/modules org.jboss.as.standalone -Djboss.home.dir=/Users/devms/Desktop/kird/kird-keycloak-13.0.1 -Djboss.server.base.dir=/Users/devms/Desktop/kird/kird-keycloak-13.0.1/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.stderr.encoding = UTF-8
+	sun.stdout.encoding = UTF-8
+	user.country = KR
+	user.dir = /Users/devms/Desktop/kird/kird-keycloak-13.0.1/bin
+	user.home = /Users/devms
+	user.language = ko
+	user.name = devms
+	user.timezone = Asia/Seoul
+2022-07-26 13:35:41,124 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED -Dorg.jboss.boot.log.file=/Users/devms/Desktop/kird/kird-keycloak-13.0.1/standalone/log/server.log -Dlogging.configuration=file:/Users/devms/Desktop/kird/kird-keycloak-13.0.1/standalone/configuration/logging.properties 
+2022-07-26 13:35:41,621 INFO  [org.wildfly.security] (ServerService Thread Pool -- 20) ELY00001: WildFly Elytron version 1.15.3.Final
+2022-07-26 13:35:41,881 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 9) WFLYCTL0033: Extension 'security' is deprecated and may not be supported in future versions
+2022-07-26 13:35:42,009 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-07-26 13:35:42,024 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 6) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-07-26 13:35:42,086 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2022-07-26 13:35:42,102 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.8.4.Final
+2022-07-26 13:35:42,109 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.8.4.Final
+2022-07-26 13:35:42,133 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 35) WFLYIO001: Worker 'default' has auto-configured to 32 IO threads with 256 max task threads based on your 16 available processors
+2022-07-26 13:35:42,133 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 34) WFLYHEALTH0001: Activating Base Health Subsystem
+2022-07-26 13:35:42,134 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 40) WFLYCLINF0001: Activating Infinispan subsystem.
+2022-07-26 13:35:42,134 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 52) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2022-07-26 13:35:42,137 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 45) WFLYNAM0001: Activating Naming Subsystem
+2022-07-26 13:35:42,138 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 49) WFLYSEC0002: Activating Security Subsystem
+2022-07-26 13:35:42,142 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 44) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2022-07-26 13:35:42,143 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00007
+2022-07-26 13:35:42,146 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 36) WFLYRS0016: RESTEasy version 3.15.1.Final
+2022-07-26 13:35:42,147 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.4.27.Final)
+2022-07-26 13:35:42,154 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.2.5.Final starting
+2022-07-26 13:35:42,163 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2022-07-26 13:35:42,169 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2022-07-26 13:35:42,169 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 50) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2022-07-26 13:35:42,171 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2022-07-26 13:35:42,174 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 42) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2022-07-26 13:35:42,178 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.20.Final
+2022-07-26 13:35:42,210 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-7) WFLYELY00023: KeyStore file '/Users/devms/Desktop/kird/kird-keycloak-13.0.1/standalone/configuration/application.keystore' does not exist. Used blank.
+2022-07-26 13:35:42,222 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY01084: KeyStore /Users/devms/Desktop/kird/kird-keycloak-13.0.1/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2022-07-26 13:35:42,227 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 42) WFLYUT0014: Creating file handler for path '/Users/devms/Desktop/kird/kird-keycloak-13.0.1/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2022-07-26 13:35:42,238 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2022-07-26 13:35:42,240 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) Queuing requests.
+2022-07-26 13:35:42,241 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2022-07-26 13:35:42,254 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 64 (per class), which is derived from the number of CPUs on this host.
+2022-07-26 13:35:42,254 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 256 (per class), which is derived from thread worker pool sizing.
+2022-07-26 13:35:42,291 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2022-07-26 13:35:42,342 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2022-07-26 13:35:42,395 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2022-07-26 13:35:42,395 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2022-07-26 13:35:42,441 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2022-07-26 13:35:42,453 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore /Users/devms/Desktop/kird/kird-keycloak-13.0.1/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
